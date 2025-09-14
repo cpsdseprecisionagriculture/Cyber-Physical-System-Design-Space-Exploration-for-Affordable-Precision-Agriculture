@@ -1,0 +1,7090 @@
+{
+  "inputs": {
+    "budget": 10000000,
+    "farm_size": 40469,
+    "crop_type": "Vine",
+    "applications": [
+      "Autonomous fruit/vegetable picking"
+    ]
+  },
+  "proposed_approach": [
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2727.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5482.52,
+      "coverage": 36.40613778699105,
+      "payload": 36.46,
+      "runtime_hours": 22.37,
+      "quantity": 1112,
+      "total_cost": 3874562.24,
+      "total_coverage": 40483.63
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 1512,
+      "total_cost": 4647650.24,
+      "total_coverage": 40487.99
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2307.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5062.52,
+      "coverage": 24.120458024094795,
+      "payload": 35.88,
+      "runtime_hours": 115.22,
+      "quantity": 1678,
+      "total_cost": 5140908.56,
+      "total_coverage": 40474.13
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 4027.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6782.5199999999995,
+      "coverage": 37.20777083892151,
+      "payload": 33.52,
+      "runtime_hours": 22.37,
+      "quantity": 1088,
+      "total_cost": 5205381.76,
+      "total_coverage": 40482.05
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Large",
+      "motor": "Large",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 4027.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6782.5199999999995,
+      "coverage": 36.53733590066044,
+      "payload": 35.97,
+      "runtime_hours": 22.37,
+      "quantity": 1108,
+      "total_cost": 5301032.16,
+      "total_coverage": 40483.37
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2807.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5562.52,
+      "coverage": 24.65574239309412,
+      "payload": 32.93,
+      "runtime_hours": 115.22,
+      "quantity": 1642,
+      "total_cost": 5851657.84,
+      "total_coverage": 40484.73
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2281,
+      "total_cost": 6052398.12,
+      "total_coverage": 40469.34
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3007.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5762.52,
+      "coverage": 24.209542298079484,
+      "payload": 35.38,
+      "runtime_hours": 115.22,
+      "quantity": 1672,
+      "total_cost": 6292933.44,
+      "total_coverage": 40478.35
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3617.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6372.5199999999995,
+      "coverage": 27.364171734837804,
+      "payload": 34.71,
+      "runtime_hours": 5.53,
+      "quantity": 1479,
+      "total_cost": 6468957.08,
+      "total_coverage": 40471.61
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3617.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6372.5199999999995,
+      "coverage": 26.875383307086615,
+      "payload": 37.16,
+      "runtime_hours": 5.53,
+      "quantity": 1506,
+      "total_cost": 6587015.12,
+      "total_coverage": 40474.33
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2557.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5312.52,
+      "coverage": 19.58042360535797,
+      "payload": 38.56,
+      "runtime_hours": 6.73,
+      "quantity": 2067,
+      "total_cost": 6848978.84,
+      "total_coverage": 40472.74
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2397.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5152.52,
+      "coverage": 18.13081523149184,
+      "payload": 34.13,
+      "runtime_hours": 28.5,
+      "quantity": 2233,
+      "total_cost": 7041577.16,
+      "total_coverage": 40486.11
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2597.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5352.52,
+      "coverage": 17.805580956216144,
+      "payload": 36.58,
+      "runtime_hours": 28.5,
+      "quantity": 2273,
+      "total_cost": 7622277.96,
+      "total_coverage": 40472.09
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2701.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5456.33,
+      "coverage": 15.627851786554459,
+      "payload": 4.57,
+      "runtime_hours": 22.37,
+      "quantity": 2590,
+      "total_cost": 8953894.7,
+      "total_coverage": 40476.14
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2137.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4892.52,
+      "coverage": 12.971939975300772,
+      "payload": 37.98,
+      "runtime_hours": 34.68,
+      "quantity": 3120,
+      "total_cost": 9026662.4,
+      "total_coverage": 40472.45
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3857.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6612.5199999999995,
+      "coverage": 20.00489230761245,
+      "payload": 35.62,
+      "runtime_hours": 6.73,
+      "quantity": 2023,
+      "total_cost": 9333127.96,
+      "total_coverage": 40469.9
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Large",
+      "motor": "Large",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3857.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6612.5199999999995,
+      "coverage": 19.64991304960093,
+      "payload": 38.07,
+      "runtime_hours": 6.73,
+      "quantity": 2060,
+      "total_cost": 9503791.2,
+      "total_coverage": 40478.82
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2694.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5449.52,
+      "coverage": 14.012471265337618,
+      "payload": 2.63,
+      "runtime_hours": 22.37,
+      "quantity": 2889,
+      "total_cost": 9967663.28,
+      "total_coverage": 40482.03
+    }
+  ],
+  "area_payload": [
+    {
+      "type": "Rover",
+      "body": "Wood Small",
+      "motor": "Small",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2279.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5034.52,
+      "coverage": 1.3007394834621884,
+      "payload": 0.63,
+      "runtime_hours": 104.51,
+      "quantity": 31113,
+      "total_cost": 94415020.76,
+      "total_coverage": 40469.91
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Small",
+      "motor": "Small",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2286.69,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5041.33,
+      "coverage": 1.4697877090909093,
+      "payload": 1.2,
+      "runtime_hours": 104.51,
+      "quantity": 27534,
+      "total_cost": 83741980.22,
+      "total_coverage": 40469.13
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Small",
+      "motor": "Small",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2086.69,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4841.33,
+      "coverage": 1.4841600095789267,
+      "payload": 0.22,
+      "runtime_hours": 104.51,
+      "quantity": 27268,
+      "total_cost": 77479386.44,
+      "total_coverage": 40470.08
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Small",
+      "motor": "Small",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2046.69,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4801.33,
+      "coverage": 2.01491335992024,
+      "payload": 0.3,
+      "runtime_hours": 85.88,
+      "quantity": 20085,
+      "total_cost": 56266713.05,
+      "total_coverage": 40469.53
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2564.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5319.52,
+      "coverage": 6.600103801800114,
+      "payload": 6.66,
+      "runtime_hours": 28.5,
+      "quantity": 6132,
+      "total_cost": 20357296.64,
+      "total_coverage": 40471.84
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2364.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5119.52,
+      "coverage": 6.755273692543904,
+      "payload": 4.21,
+      "runtime_hours": 28.5,
+      "quantity": 5991,
+      "total_cost": 18691044.32,
+      "total_coverage": 40470.84
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2371.69,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5126.33,
+      "coverage": 7.551803844519969,
+      "payload": 5.93,
+      "runtime_hours": 28.5,
+      "quantity": 5359,
+      "total_cost": 16756002.47,
+      "total_coverage": 40470.12
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Small",
+      "motor": "Small",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2482.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5237.52,
+      "coverage": 7.685852845714286,
+      "payload": 7.73,
+      "runtime_hours": 347.23,
+      "quantity": 5266,
+      "total_cost": 17050780.32,
+      "total_coverage": 40473.7
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3824.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6579.5199999999995,
+      "coverage": 7.715497448912468,
+      "payload": 1.79,
+      "runtime_hours": 6.73,
+      "quantity": 5246,
+      "total_cost": 24026161.92,
+      "total_coverage": 40475.5
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Small",
+      "motor": "Small",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2282.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5037.52,
+      "coverage": 7.756411494789695,
+      "payload": 6.75,
+      "runtime_hours": 347.23,
+      "quantity": 5218,
+      "total_cost": 15851779.36,
+      "total_coverage": 40472.96
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3831.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6586.33,
+      "coverage": 8.603635370288249,
+      "payload": 3.73,
+      "runtime_hours": 6.73,
+      "quantity": 4704,
+      "total_cost": 21576096.32,
+      "total_coverage": 40471.5
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2974.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5729.52,
+      "coverage": 8.995415558291459,
+      "payload": 5.47,
+      "runtime_hours": 115.22,
+      "quantity": 4499,
+      "total_cost": 16781110.48,
+      "total_coverage": 40470.37
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2774.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5529.52,
+      "coverage": 9.20934264155504,
+      "payload": 3.02,
+      "runtime_hours": 115.22,
+      "quantity": 4395,
+      "total_cost": 15514240.4,
+      "total_coverage": 40475.06
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2981.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5736.33,
+      "coverage": 10.058037119017635,
+      "payload": 7.19,
+      "runtime_hours": 115.22,
+      "quantity": 4024,
+      "total_cost": 15036991.92,
+      "total_coverage": 40473.54
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2781.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5536.33,
+      "coverage": 10.293307225391446,
+      "payload": 4.74,
+      "runtime_hours": 115.22,
+      "quantity": 3932,
+      "total_cost": 13906849.56,
+      "total_coverage": 40473.28
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3584.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6339.5199999999995,
+      "coverage": 10.326777090873899,
+      "payload": 3.33,
+      "runtime_hours": 5.53,
+      "quantity": 3919,
+      "total_cost": 17008578.88,
+      "total_coverage": 40470.64
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3584.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6339.5199999999995,
+      "coverage": 10.577576098334657,
+      "payload": 0.88,
+      "runtime_hours": 5.53,
+      "quantity": 3826,
+      "total_cost": 16605003.52,
+      "total_coverage": 40469.81
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3591.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6346.33,
+      "coverage": 11.79318089865785,
+      "payload": 2.82,
+      "runtime_hours": 5.53,
+      "quantity": 3432,
+      "total_cost": 14918604.56,
+      "total_coverage": 40474.2
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 4001.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6756.33,
+      "coverage": 16.079941565679423,
+      "payload": 1.63,
+      "runtime_hours": 22.37,
+      "quantity": 2517,
+      "total_cost": 11973682.61,
+      "total_coverage": 40473.21
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 4027.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6782.5199999999995,
+      "coverage": 37.20777083892151,
+      "payload": 33.52,
+      "runtime_hours": 22.37,
+      "quantity": 1088,
+      "total_cost": 5205381.76,
+      "total_coverage": 40482.05
+    }
+  ],
+  "cost_area": [
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2727.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5482.52,
+      "coverage": 36.40613778699105,
+      "payload": 36.46,
+      "runtime_hours": 22.37,
+      "quantity": 1112,
+      "total_cost": 3874562.24,
+      "total_coverage": 40483.63
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 1512,
+      "total_cost": 4647650.24,
+      "total_coverage": 40487.99
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2307.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5062.52,
+      "coverage": 24.120458024094795,
+      "payload": 35.88,
+      "runtime_hours": 115.22,
+      "quantity": 1678,
+      "total_cost": 5140908.56,
+      "total_coverage": 40474.13
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 4027.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6782.5199999999995,
+      "coverage": 37.20777083892151,
+      "payload": 33.52,
+      "runtime_hours": 22.37,
+      "quantity": 1088,
+      "total_cost": 5205381.76,
+      "total_coverage": 40482.05
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Large",
+      "motor": "Large",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 4027.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6782.5199999999995,
+      "coverage": 36.53733590066044,
+      "payload": 35.97,
+      "runtime_hours": 22.37,
+      "quantity": 1108,
+      "total_cost": 5301032.16,
+      "total_coverage": 40483.37
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2807.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5562.52,
+      "coverage": 24.65574239309412,
+      "payload": 32.93,
+      "runtime_hours": 115.22,
+      "quantity": 1642,
+      "total_cost": 5851657.84,
+      "total_coverage": 40484.73
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2281,
+      "total_cost": 6052398.12,
+      "total_coverage": 40469.34
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3007.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5762.52,
+      "coverage": 24.209542298079484,
+      "payload": 35.38,
+      "runtime_hours": 115.22,
+      "quantity": 1672,
+      "total_cost": 6292933.44,
+      "total_coverage": 40478.35
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3617.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6372.5199999999995,
+      "coverage": 27.364171734837804,
+      "payload": 34.71,
+      "runtime_hours": 5.53,
+      "quantity": 1479,
+      "total_cost": 6468957.08,
+      "total_coverage": 40471.61
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3617.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6372.5199999999995,
+      "coverage": 26.875383307086615,
+      "payload": 37.16,
+      "runtime_hours": 5.53,
+      "quantity": 1506,
+      "total_cost": 6587015.12,
+      "total_coverage": 40474.33
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2557.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5312.52,
+      "coverage": 19.58042360535797,
+      "payload": 38.56,
+      "runtime_hours": 6.73,
+      "quantity": 2067,
+      "total_cost": 6848978.84,
+      "total_coverage": 40472.74
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2397.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5152.52,
+      "coverage": 18.13081523149184,
+      "payload": 34.13,
+      "runtime_hours": 28.5,
+      "quantity": 2233,
+      "total_cost": 7041577.16,
+      "total_coverage": 40486.11
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2597.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5352.52,
+      "coverage": 17.805580956216144,
+      "payload": 36.58,
+      "runtime_hours": 28.5,
+      "quantity": 2273,
+      "total_cost": 7622277.96,
+      "total_coverage": 40472.09
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2701.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5456.33,
+      "coverage": 15.627851786554459,
+      "payload": 4.57,
+      "runtime_hours": 22.37,
+      "quantity": 2590,
+      "total_cost": 8953894.7,
+      "total_coverage": 40476.14
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2137.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4892.52,
+      "coverage": 12.971939975300772,
+      "payload": 37.98,
+      "runtime_hours": 34.68,
+      "quantity": 3120,
+      "total_cost": 9026662.4,
+      "total_coverage": 40472.45
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3857.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6612.5199999999995,
+      "coverage": 20.00489230761245,
+      "payload": 35.62,
+      "runtime_hours": 6.73,
+      "quantity": 2023,
+      "total_cost": 9333127.96,
+      "total_coverage": 40469.9
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Large",
+      "motor": "Large",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3857.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6612.5199999999995,
+      "coverage": 19.64991304960093,
+      "payload": 38.07,
+      "runtime_hours": 6.73,
+      "quantity": 2060,
+      "total_cost": 9503791.2,
+      "total_coverage": 40478.82
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2694.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5449.52,
+      "coverage": 14.012471265337618,
+      "payload": 2.63,
+      "runtime_hours": 22.37,
+      "quantity": 2889,
+      "total_cost": 9967663.28,
+      "total_coverage": 40482.03
+    }
+  ],
+  "payload_cost": [
+    {
+      "type": "Rover",
+      "body": "Plastic Small",
+      "motor": "Small",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1639.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4394.52,
+      "coverage": 1.7747162239297478,
+      "payload": 0.21,
+      "runtime_hours": 85.88,
+      "quantity": 1,
+      "total_cost": 4394.52,
+      "total_coverage": 1.77
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Small",
+      "motor": "Small",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1646.69,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4401.33,
+      "coverage": 2.00511767040381,
+      "payload": 0.79,
+      "runtime_hours": 85.88,
+      "quantity": 1,
+      "total_cost": 4401.33,
+      "total_coverage": 2.01
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Small",
+      "motor": "Small",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1672.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4427.52,
+      "coverage": 5.6153117850287915,
+      "payload": 9.41,
+      "runtime_hours": 85.88,
+      "quantity": 1,
+      "total_cost": 4427.52,
+      "total_coverage": 5.62
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1864.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4619.52,
+      "coverage": 6.569921339244053,
+      "payload": 7.15,
+      "runtime_hours": 28.5,
+      "quantity": 1,
+      "total_cost": 4619.52,
+      "total_coverage": 6.57
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1871.69,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4626.33,
+      "coverage": 7.347194904941222,
+      "payload": 8.88,
+      "runtime_hours": 28.5,
+      "quantity": 1,
+      "total_cost": 4626.33,
+      "total_coverage": 7.35
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Small",
+      "motor": "Small",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1872.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4627.52,
+      "coverage": 5.691784902723737,
+      "payload": 7.94,
+      "runtime_hours": 85.88,
+      "quantity": 1,
+      "total_cost": 4627.52,
+      "total_coverage": 5.69
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Small",
+      "motor": "Small",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1879.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4634.52,
+      "coverage": 1.2944364539240507,
+      "payload": 1.12,
+      "runtime_hours": 104.51,
+      "quantity": 1,
+      "total_cost": 4634.52,
+      "total_coverage": 1.29
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Small",
+      "motor": "Small",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1886.69,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4641.33,
+      "coverage": 1.4627054396695842,
+      "payload": 1.69,
+      "runtime_hours": 104.51,
+      "quantity": 1,
+      "total_cost": 4641.33,
+      "total_coverage": 1.46
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 1,
+      "total_cost": 4652.52,
+      "total_coverage": 17.74
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Small",
+      "motor": "Small",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1912.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4667.52,
+      "coverage": 4.0987785453807115,
+      "payload": 10.32,
+      "runtime_hours": 104.51,
+      "quantity": 1,
+      "total_cost": 4667.52,
+      "total_coverage": 4.1
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Small",
+      "motor": "Small",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2046.69,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4801.33,
+      "coverage": 2.01491335992024,
+      "payload": 0.3,
+      "runtime_hours": 85.88,
+      "quantity": 1,
+      "total_cost": 4801.33,
+      "total_coverage": 2.01
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Small",
+      "motor": "Small",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2072.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4827.52,
+      "coverage": 5.640573470437019,
+      "payload": 8.92,
+      "runtime_hours": 85.88,
+      "quantity": 1,
+      "total_cost": 4827.52,
+      "total_coverage": 5.64
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Small",
+      "motor": "Small",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2082.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4837.52,
+      "coverage": 7.651052735804842,
+      "payload": 8.22,
+      "runtime_hours": 347.23,
+      "quantity": 1,
+      "total_cost": 4837.52,
+      "total_coverage": 7.65
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Small",
+      "motor": "Small",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2086.69,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4841.33,
+      "coverage": 1.4841600095789267,
+      "payload": 0.22,
+      "runtime_hours": 104.51,
+      "quantity": 1,
+      "total_cost": 4841.33,
+      "total_coverage": 1.48
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2104.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4859.52,
+      "coverage": 4.794741482731816,
+      "payload": 8.06,
+      "runtime_hours": 34.68,
+      "quantity": 1,
+      "total_cost": 4859.52,
+      "total_coverage": 4.79
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2111.69,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4866.33,
+      "coverage": 5.36320331390053,
+      "payload": 9.78,
+      "runtime_hours": 34.68,
+      "quantity": 1,
+      "total_cost": 4866.33,
+      "total_coverage": 5.36
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Small",
+      "motor": "Small",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2112.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4867.52,
+      "coverage": 4.154131824771704,
+      "payload": 8.85,
+      "runtime_hours": 104.51,
+      "quantity": 1,
+      "total_cost": 4867.52,
+      "total_coverage": 4.15
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2137.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4892.52,
+      "coverage": 12.971939975300772,
+      "payload": 37.98,
+      "runtime_hours": 34.68,
+      "quantity": 1,
+      "total_cost": 4892.52,
+      "total_coverage": 12.97
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2274.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5029.52,
+      "coverage": 8.953817279473387,
+      "payload": 5.96,
+      "runtime_hours": 115.22,
+      "quantity": 1,
+      "total_cost": 5029.52,
+      "total_coverage": 8.95
+    }
+  ],
+  "simulated_annealing": [
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 3281,
+      "total_cost": 8704918.12,
+      "total_coverage": 58211.27
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2137.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4892.52,
+      "coverage": 12.971939975300772,
+      "payload": 37.98,
+      "runtime_hours": 34.68,
+      "quantity": 3383,
+      "total_cost": 9787395.16,
+      "total_coverage": 43884.07
+    }
+  ],
+  "bayesian": [
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2418,
+      "total_cost": 7431353.36,
+      "total_coverage": 64748.64
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2503,
+      "total_cost": 7692517.56,
+      "total_coverage": 67024.75
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2504,
+      "total_cost": 7695590.08,
+      "total_coverage": 67051.53
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2505,
+      "total_cost": 7698662.6,
+      "total_coverage": 67078.31
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2507,
+      "total_cost": 7704807.64,
+      "total_coverage": 67131.86
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2508,
+      "total_cost": 7707880.16,
+      "total_coverage": 67158.64
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2515,
+      "total_cost": 7729387.8,
+      "total_coverage": 67346.09
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2516,
+      "total_cost": 7732460.32,
+      "total_coverage": 67372.86
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2534,
+      "total_cost": 7787765.68,
+      "total_coverage": 67854.86
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2598,
+      "total_cost": 7984406.96,
+      "total_coverage": 69568.64
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2660,
+      "total_cost": 8174903.2,
+      "total_coverage": 71228.86
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2686,
+      "total_cost": 8254788.72,
+      "total_coverage": 71925.09
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2784,
+      "total_cost": 8555895.68,
+      "total_coverage": 74549.31
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2840,
+      "total_cost": 8727956.8,
+      "total_coverage": 76048.86
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2919,
+      "total_cost": 8970685.88,
+      "total_coverage": 78164.31
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2957,
+      "total_cost": 9087441.64,
+      "total_coverage": 79181.86
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 3026,
+      "total_cost": 9299445.52,
+      "total_coverage": 81029.53
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 3078,
+      "total_cost": 9459216.56,
+      "total_coverage": 82421.97
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 3082,
+      "total_cost": 9471506.64,
+      "total_coverage": 82529.08
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 3083,
+      "total_cost": 9474579.16,
+      "total_coverage": 82555.86
+    }
+  ],
+  "pg_dse": [
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3591.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6346.33,
+      "coverage": 11.79318089865785,
+      "payload": 2.82,
+      "runtime_hours": 5.53,
+      "quantity": 1257,
+      "total_cost": 5465336.81,
+      "total_coverage": 14824.03
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3591.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6346.33,
+      "coverage": 11.79318089865785,
+      "payload": 2.82,
+      "runtime_hours": 5.53,
+      "quantity": 1264,
+      "total_cost": 5495761.12,
+      "total_coverage": 14906.58
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2807.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5562.52,
+      "coverage": 24.65574239309412,
+      "payload": 32.93,
+      "runtime_hours": 115.22,
+      "quantity": 1681,
+      "total_cost": 5990596.12,
+      "total_coverage": 41446.3
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3591.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6346.33,
+      "coverage": 11.79318089865785,
+      "payload": 2.82,
+      "runtime_hours": 5.53,
+      "quantity": 1664,
+      "total_cost": 7234293.12,
+      "total_coverage": 19623.85
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2781.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5536.33,
+      "coverage": 10.293307225391446,
+      "payload": 4.74,
+      "runtime_hours": 115.22,
+      "quantity": 2172,
+      "total_cost": 7682908.76,
+      "total_coverage": 22357.06
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2807.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5562.52,
+      "coverage": 24.65574239309412,
+      "payload": 32.93,
+      "runtime_hours": 115.22,
+      "quantity": 2192,
+      "total_cost": 7811043.84,
+      "total_coverage": 54045.39
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2637.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5392.52,
+      "coverage": 13.255337908553656,
+      "payload": 35.03,
+      "runtime_hours": 34.68,
+      "quantity": 2351,
+      "total_cost": 7977814.52,
+      "total_coverage": 31163.3
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2807.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5562.52,
+      "coverage": 24.65574239309412,
+      "payload": 32.93,
+      "runtime_hours": 115.22,
+      "quantity": 2311,
+      "total_cost": 8234983.72,
+      "total_coverage": 56979.42
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3591.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6346.33,
+      "coverage": 11.79318089865785,
+      "payload": 2.82,
+      "runtime_hours": 5.53,
+      "quantity": 1950,
+      "total_cost": 8477343.5,
+      "total_coverage": 22996.7
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3591.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6346.33,
+      "coverage": 11.79318089865785,
+      "payload": 2.82,
+      "runtime_hours": 5.53,
+      "quantity": 2090,
+      "total_cost": 9085829.7,
+      "total_coverage": 24647.75
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2807.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5562.52,
+      "coverage": 24.65574239309412,
+      "payload": 32.93,
+      "runtime_hours": 115.22,
+      "quantity": 2609,
+      "total_cost": 9296614.68,
+      "total_coverage": 64326.83
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2637.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5392.52,
+      "coverage": 13.255337908553656,
+      "payload": 35.03,
+      "runtime_hours": 34.68,
+      "quantity": 2928,
+      "total_cost": 9935298.56,
+      "total_coverage": 38811.63
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2781.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5536.33,
+      "coverage": 10.293307225391446,
+      "payload": 4.74,
+      "runtime_hours": 115.22,
+      "quantity": 2810,
+      "total_cost": 9939087.3,
+      "total_coverage": 28924.19
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2637.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5392.52,
+      "coverage": 13.255337908553656,
+      "payload": 35.03,
+      "runtime_hours": 34.68,
+      "quantity": 2985,
+      "total_cost": 10128672.2,
+      "total_coverage": 39567.18
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3591.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6346.33,
+      "coverage": 11.79318089865785,
+      "payload": 2.82,
+      "runtime_hours": 5.53,
+      "quantity": 2341,
+      "total_cost": 10176758.53,
+      "total_coverage": 27607.84
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2637.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5392.52,
+      "coverage": 13.255337908553656,
+      "payload": 35.03,
+      "runtime_hours": 34.68,
+      "quantity": 3095,
+      "total_cost": 10501849.4,
+      "total_coverage": 41025.27
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2637.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5392.52,
+      "coverage": 13.255337908553656,
+      "payload": 35.03,
+      "runtime_hours": 34.68,
+      "quantity": 3268,
+      "total_cost": 11088755.36,
+      "total_coverage": 43318.44
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2637.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5392.52,
+      "coverage": 13.255337908553656,
+      "payload": 35.03,
+      "runtime_hours": 34.68,
+      "quantity": 3395,
+      "total_cost": 11519605.4,
+      "total_coverage": 45001.87
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3591.6899999999996,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6346.33,
+      "coverage": 11.79318089865785,
+      "payload": 2.82,
+      "runtime_hours": 5.53,
+      "quantity": 2764,
+      "total_cost": 12015256.12,
+      "total_coverage": 32596.35
+    },
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2637.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5392.52,
+      "coverage": 13.255337908553656,
+      "payload": 35.03,
+      "runtime_hours": 34.68,
+      "quantity": 3593,
+      "total_cost": 12191324.36,
+      "total_coverage": 47626.43
+    }
+  ],
+  "random_search": [
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Large",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2727.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5482.52,
+      "coverage": 36.40613778699105,
+      "payload": 36.46,
+      "runtime_hours": 22.37,
+      "quantity": 1578,
+      "total_cost": 5497416.56,
+      "total_coverage": 57448.89
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 1832,
+      "total_cost": 5630856.64,
+      "total_coverage": 49056.87
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 1928,
+      "total_cost": 5925818.56,
+      "total_coverage": 51627.54
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2031,
+      "total_cost": 6242288.12,
+      "total_coverage": 54385.65
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2198,
+      "total_cost": 6755398.96,
+      "total_coverage": 58857.53
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2317.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5072.52,
+      "coverage": 26.777768228969926,
+      "payload": 37.66,
+      "runtime_hours": 5.53,
+      "quantity": 2230,
+      "total_cost": 6853719.6,
+      "total_coverage": 59714.42
+    },
+    {
+      "type": "Rover",
+      "body": "Wood Large",
+      "motor": "Large",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 3617.879999999999,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 6372.5199999999995,
+      "coverage": 26.875383307086615,
+      "payload": 37.16,
+      "runtime_hours": 5.53,
+      "quantity": 1662,
+      "total_cost": 7269128.24,
+      "total_coverage": 44666.89
+    }
+  ],
+  "genetic_algorithm": [
+    {
+      "type": "Rover",
+      "body": "Metal Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2397.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5152.52,
+      "coverage": 18.13081523149184,
+      "payload": 34.13,
+      "runtime_hours": 28.5,
+      "quantity": 2609,
+      "total_cost": 8226924.68,
+      "total_coverage": 47303.3
+    }
+  ],
+  "discrete": [
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2429,
+      "total_cost": 6444971.08,
+      "total_coverage": 43095.15
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2551,
+      "total_cost": 6768578.52,
+      "total_coverage": 45259.66
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2741,
+      "total_cost": 7272557.32,
+      "total_coverage": 48630.63
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2842,
+      "total_cost": 7540461.84,
+      "total_coverage": 50422.56
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 3033,
+      "total_cost": 8047093.16,
+      "total_coverage": 53811.27
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 3056,
+      "total_cost": 8108101.12,
+      "total_coverage": 54219.34
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 3070,
+      "total_cost": 8145236.4,
+      "total_coverage": 54467.72
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 3126,
+      "total_cost": 8293777.52,
+      "total_coverage": 55461.27
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 3144,
+      "total_cost": 8341522.88,
+      "total_coverage": 55780.63
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 3246,
+      "total_cost": 8612079.92,
+      "total_coverage": 57590.3
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 3272,
+      "total_cost": 8681045.44,
+      "total_coverage": 58051.59
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 3373,
+      "total_cost": 8948949.96,
+      "total_coverage": 59843.53
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 3397,
+      "total_cost": 9012610.44,
+      "total_coverage": 60269.33
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2137.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4892.52,
+      "coverage": 12.971939975300772,
+      "payload": 37.98,
+      "runtime_hours": 34.68,
+      "quantity": 3163,
+      "total_cost": 9151040.76,
+      "total_coverage": 41030.25
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2137.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4892.52,
+      "coverage": 12.971939975300772,
+      "payload": 37.98,
+      "runtime_hours": 34.68,
+      "quantity": 3178,
+      "total_cost": 9194428.56,
+      "total_coverage": 41224.83
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 3482,
+      "total_cost": 9238074.64,
+      "total_coverage": 61777.4
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 3599,
+      "total_cost": 9548419.48,
+      "total_coverage": 63853.2
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 3641,
+      "total_cost": 9659825.32,
+      "total_coverage": 64598.36
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2137.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4892.52,
+      "coverage": 12.971939975300772,
+      "payload": 37.98,
+      "runtime_hours": 34.68,
+      "quantity": 3377,
+      "total_cost": 9770040.04,
+      "total_coverage": 43806.24
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Large",
+      "motor": "Large",
+      "battery": "Medium",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 2557.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 5312.52,
+      "coverage": 19.58042360535797,
+      "payload": 38.56,
+      "runtime_hours": 6.73,
+      "quantity": 3010,
+      "total_cost": 9972685.2,
+      "total_coverage": 58937.08
+    }
+  ],
+  "lengler": [
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2281,
+      "total_cost": 6052398.12,
+      "total_coverage": 40469.34
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2282,
+      "total_cost": 6055050.64,
+      "total_coverage": 40487.08
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2283,
+      "total_cost": 6057703.16,
+      "total_coverage": 40504.82
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2284,
+      "total_cost": 6060355.68,
+      "total_coverage": 40522.57
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2285,
+      "total_cost": 6063008.2,
+      "total_coverage": 40540.31
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2286,
+      "total_cost": 6065660.72,
+      "total_coverage": 40558.05
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2287,
+      "total_cost": 6068313.24,
+      "total_coverage": 40575.79
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2288,
+      "total_cost": 6070965.76,
+      "total_coverage": 40593.53
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2289,
+      "total_cost": 6073618.28,
+      "total_coverage": 40611.28
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2290,
+      "total_cost": 6076270.8,
+      "total_coverage": 40629.02
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2291,
+      "total_cost": 6078923.32,
+      "total_coverage": 40646.76
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2292,
+      "total_cost": 6081575.84,
+      "total_coverage": 40664.5
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2293,
+      "total_cost": 6084228.36,
+      "total_coverage": 40682.24
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2294,
+      "total_cost": 6086880.88,
+      "total_coverage": 40699.99
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2295,
+      "total_cost": 6089533.4,
+      "total_coverage": 40717.73
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2296,
+      "total_cost": 6092185.92,
+      "total_coverage": 40735.47
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2297,
+      "total_cost": 6094838.44,
+      "total_coverage": 40753.21
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2298,
+      "total_cost": 6097490.96,
+      "total_coverage": 40770.95
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2299,
+      "total_cost": 6100143.48,
+      "total_coverage": 40788.7
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2300,
+      "total_cost": 6102796,
+      "total_coverage": 40806.44
+    }
+  ],
+  "portfolio": [
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2281,
+      "total_cost": 6052398.12,
+      "total_coverage": 40469.34
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2312,
+      "total_cost": 6134626.24,
+      "total_coverage": 41019.34
+    },
+    {
+      "type": "Rover",
+      "body": "Plastic Medium",
+      "motor": "Medium",
+      "battery": "Small",
+      "computing_device": "Jetson Xavier NX Dev Kit",
+      "computing_type": "GPU",
+      "computing_cost": 793,
+      "computing_perf": 2029,
+      "computing_power_watts": 15,
+      "edge_server": {
+        "name": "Local Edge Server",
+        "cost": 2000
+      },
+      "base_cost": 1897.88,
+      "additional_components": [
+        {
+          "name": "Depth camera",
+          "category": "Sensor"
+        },
+        {
+          "name": "Robotic manipulator arm",
+          "category": "Actuator"
+        },
+        {
+          "name": "Gripper",
+          "category": "Actuator"
+        },
+        {
+          "name": "LiDAR sensor",
+          "category": "Sensor"
+        }
+      ],
+      "additional_cost": 754.6400000000001,
+      "cost": 4652.52,
+      "coverage": 17.741929284307293,
+      "payload": 37.07,
+      "runtime_hours": 28.5,
+      "quantity": 2415,
+      "total_cost": 6407835.8,
+      "total_coverage": 42846.76
+    }
+  ]
+}
